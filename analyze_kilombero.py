@@ -7,7 +7,7 @@ matplotlib.use('Agg')  # Use non-interactive backend
 
 # Read the CSV file
 data = []
-with open('Singida.csv', 'r', encoding='utf-8') as f:
+with open('Surgeries Done Kilombero.csv', 'r', encoding='utf-8') as f:
     reader = csv.DictReader(f)
     for row in reader:
         data.append(row)
@@ -30,9 +30,9 @@ for row in data:
         pass
 mean_age = sum(ages) / len(ages) if ages else 0
 
-# 2. Extract conditions
-# In Singida.csv, there's a single "Conditions" column (not separated by eye)
-# We'll count conditions generally, and also track by the operated eye
+# 2. Extract conditions and create frequency distributions
+right_eye_conditions = []
+left_eye_conditions = []
 all_conditions = []
 conditions_by_sex = defaultdict(list)
 conditions_by_age = defaultdict(list)
@@ -66,61 +66,65 @@ def get_age_group(age_str):
     except:
         return "Unknown"
 
-# Known procedure names to exclude from conditions
-PROCEDURE_NAMES = {'SICS', 'EXCISION', 'INCISION & DRAINAGE', 'BTRP', 'ICCE', 
-                   'IRIS REPOSITION', 'TPR', 'EVISCERATION', 'EPILATION', 
-                   'FOREIGN BODY REMOVAL'}
-
 for row in data:
     gender = row['Gender']
     age = row['Age']
     age_group = get_age_group(age)
-    operated_eye = row.get('Operated Eye', '').strip().upper()
     
-    # Extract conditions from the single Conditions column
-    conditions_str = row.get('Conditions', '').strip()
+    # Extract conditions from both eyes separately
+    right_conditions = row['Conditions Right Eye'].strip()
+    left_conditions = row['Conditions Left Eye'].strip()
     
-    if conditions_str:
-        # Split by comma (conditions are comma-separated like "Cataracts, Pterygium")
-        for cond in re.split(r',', conditions_str):
+    # Split by "; " and add to lists
+    if right_conditions:
+        for cond in right_conditions.split('; '):
             cond = cond.strip()
-            # Filter out procedure names and empty strings
-            if cond and cond.upper() not in PROCEDURE_NAMES:
+            if cond:
+                right_eye_conditions.append(cond)
                 all_conditions.append(cond)
                 conditions_by_sex[gender].append(cond)
                 conditions_by_age[age_group].append(cond)
-                
-                # Assign to operated eye (since we don't have separate RE/LE condition columns)
-                if operated_eye == 'RE':
-                    if gender == 'Male':
-                        conditions_male_re.append(cond)
-                    elif gender == 'Female':
-                        conditions_female_re.append(cond)
-                    # Track by age group
-                    if age_group == '19-40':
-                        conditions_age_19_40_re.append(cond)
-                    elif age_group == '41-60':
-                        conditions_age_41_60_re.append(cond)
-                    elif age_group == '61-80':
-                        conditions_age_61_80_re.append(cond)
-                    elif age_group == '81+':
-                        conditions_age_81plus_re.append(cond)
-                elif operated_eye == 'LE':
-                    if gender == 'Male':
-                        conditions_male_le.append(cond)
-                    elif gender == 'Female':
-                        conditions_female_le.append(cond)
-                    # Track by age group
-                    if age_group == '19-40':
-                        conditions_age_19_40_le.append(cond)
-                    elif age_group == '41-60':
-                        conditions_age_41_60_le.append(cond)
-                    elif age_group == '61-80':
-                        conditions_age_61_80_le.append(cond)
-                    elif age_group == '81+':
-                        conditions_age_81plus_le.append(cond)
+                # Track by gender and eye
+                if gender == 'Male':
+                    conditions_male_re.append(cond)
+                elif gender == 'Female':
+                    conditions_female_re.append(cond)
+                # Track by age group and eye
+                if age_group == '19-40':
+                    conditions_age_19_40_re.append(cond)
+                elif age_group == '41-60':
+                    conditions_age_41_60_re.append(cond)
+                elif age_group == '61-80':
+                    conditions_age_61_80_re.append(cond)
+                elif age_group == '81+':
+                    conditions_age_81plus_re.append(cond)
+    
+    if left_conditions:
+        for cond in left_conditions.split('; '):
+            cond = cond.strip()
+            if cond:
+                left_eye_conditions.append(cond)
+                all_conditions.append(cond)
+                conditions_by_sex[gender].append(cond)
+                conditions_by_age[age_group].append(cond)
+                # Track by gender and eye
+                if gender == 'Male':
+                    conditions_male_le.append(cond)
+                elif gender == 'Female':
+                    conditions_female_le.append(cond)
+                # Track by age group and eye
+                if age_group == '19-40':
+                    conditions_age_19_40_le.append(cond)
+                elif age_group == '41-60':
+                    conditions_age_41_60_le.append(cond)
+                elif age_group == '61-80':
+                    conditions_age_61_80_le.append(cond)
+                elif age_group == '81+':
+                    conditions_age_81plus_le.append(cond)
 
 # Count frequencies
+condition_freq_right_eye = Counter(right_eye_conditions)
+condition_freq_left_eye = Counter(left_eye_conditions)
 condition_freq_general = Counter(all_conditions)
 condition_freq_by_sex = {sex: Counter(conditions) for sex, conditions in conditions_by_sex.items()}
 condition_freq_by_age = {age_group: Counter(conditions) for age_group, conditions in conditions_by_age.items()}
@@ -137,66 +141,64 @@ condition_freq_age_61_80_le = Counter(conditions_age_61_80_le)
 condition_freq_age_81plus_re = Counter(conditions_age_81plus_re)
 condition_freq_age_81plus_le = Counter(conditions_age_81plus_le)
 
-# For the general table, we'll show conditions by operated eye
-condition_freq_right_eye = Counter()
-condition_freq_left_eye = Counter()
-
-for row in data:
-    operated_eye = row.get('Operated Eye', '').strip().upper()
-    conditions_str = row.get('Conditions', '').strip()
-    
-    if conditions_str:
-        for cond in re.split(r',', conditions_str):
-            cond = cond.strip()
-            if cond and cond.upper() not in PROCEDURE_NAMES:
-                if operated_eye == 'RE':
-                    condition_freq_right_eye[cond] += 1
-                elif operated_eye == 'LE':
-                    condition_freq_left_eye[cond] += 1
-
 # Count procedures by eye
 right_eye_procedures = []
 left_eye_procedures = []
 all_procedures = []
 
 for row in data:
-    procedure = row.get('Surgical Procedure Perfomed', '').strip()
-    operated_eye = row.get('Operated Eye', '').strip().upper()
-    
-    if procedure and operated_eye:
-        # Split by comma or plus sign
-        procedures = re.split(r'[,+]', procedure)
+    procedure = row['Surgical Procedure Perfomed'].strip()
+    if procedure:
+        # Split by semicolon if multiple procedures
+        procedures = [p.strip() for p in procedure.split(';')]
         for proc in procedures:
-            proc_clean = proc.strip().upper()
-            # Filter out eye indicators and procedure modifiers
-            if proc_clean and proc_clean not in ['RE', 'LE', 'PTERYGIUM', '']:
-                all_procedures.append(proc_clean)
-                if operated_eye == 'RE':
-                    right_eye_procedures.append(proc_clean)
-                elif operated_eye == 'LE':
-                    left_eye_procedures.append(proc_clean)
+            # Extract procedure type and eye
+            if ' - RE' in proc:
+                proc_type = proc.replace(' - RE', '').strip()
+                right_eye_procedures.append(proc_type)
+                all_procedures.append(proc_type)
+            elif ' - LE' in proc:
+                proc_type = proc.replace(' - LE', '').strip()
+                left_eye_procedures.append(proc_type)
+                all_procedures.append(proc_type)
+            else:
+                # If no eye specified, add to both or handle separately
+                all_procedures.append(proc)
 
 procedure_freq_right = Counter(right_eye_procedures)
 procedure_freq_left = Counter(left_eye_procedures)
 procedure_freq_all = Counter(all_procedures)
 
 # 3. Extract VA data for operated eye
+def extract_operated_eye(procedure):
+    """Extract which eye was operated on from procedure string"""
+    if ' - RE' in procedure or 'RE;' in procedure:
+        return 'RE'
+    elif ' - LE' in procedure or 'LE;' in procedure:
+        return 'LE'
+    elif 'RE' in procedure and 'LE' not in procedure:
+        return 'RE'
+    elif 'LE' in procedure:
+        return 'LE'
+    return None
+
 va_data = []
 patient_improvements = []
 
 for row in data:
-    operated_eye = row.get('Operated Eye', '').strip().upper()
+    procedure = row['Surgical Procedure Perfomed']
+    operated_eye = extract_operated_eye(procedure)
     
     if operated_eye == 'RE':
-        preop_va = row.get('PREOP VA - Right Eye\t', '').strip()
-        day1_va = row.get('1 Day Post OP VA - Right Eye', '').strip()
-        week2_va = row.get('2 Weeks Post OP VA - Right Eye', '').strip()
-        month1_va = row.get('1 Month Post OP VA - Right Eye', '').strip()
+        preop_va = row['PREOP VA - Right Eye\t'].strip()
+        day1_va = row['1 Day Post OP VA - Right Eye'].strip()
+        week2_va = row['2 Weeks Post OP VA - Right Eye'].strip()
+        month1_va = row['1 Month Post OP VA - Right Eye'].strip()
     elif operated_eye == 'LE':
-        preop_va = row.get('PREOP VA - Left Eye\t', '').strip()
-        day1_va = row.get('1 Day Post OP VA - Left Eye', '').strip()
-        week2_va = row.get('2 Weeks Post OP VA - Left Eye', '').strip()
-        month1_va = row.get('1 Month Post OP VA - Left Eye', '').strip()
+        preop_va = row['PREOP VA - Left Eye\t'].strip()
+        day1_va = row['1 Day Post OP VA - Left Eye'].strip()
+        week2_va = row['2 Weeks Post OP VA - Left Eye'].strip()
+        month1_va = row['1 Month Post OP VA - Left Eye'].strip()
     else:
         continue  # Skip if we can't determine the eye
     
@@ -209,9 +211,9 @@ for row in data:
             'month1': month1_va
         })
         
-        # Store patient info for improvement tracking (use 1 month if available, else 2 weeks)
-        final_va = month1_va if month1_va else week2_va
-        if preop_va and final_va:
+        # Store patient info for improvement tracking (use month1 if available, otherwise week2)
+        followup_va = month1_va if month1_va else week2_va
+        if preop_va and followup_va:
             # Handle BOM in column name
             patient_id_key = '\ufeffPatient Number' if '\ufeffPatient Number' in row else 'Patient Number'
             patient_improvements.append({
@@ -220,7 +222,7 @@ for row in data:
                 'preop_va': preop_va,
                 'week2_va': week2_va,
                 'month1_va': month1_va,
-                'final_va': final_va
+                'followup_va': followup_va
             })
 
 # Count VA frequencies
@@ -254,13 +256,12 @@ def get_va_order(va):
 
 # Get all unique VA values and sort by ordinal order
 all_va_values = sorted(
-    set(list(preop_va_count.keys()) + list(day1_va_count.keys()) + 
-        list(week2_va_count.keys()) + list(month1_va_count.keys())),
+    set(list(preop_va_count.keys()) + list(day1_va_count.keys()) + list(week2_va_count.keys()) + list(month1_va_count.keys())),
     key=get_va_order
 )
 
 # Generate markdown report
-markdown = f"""# Singida Eye Camp Report
+markdown = f"""# Ifakara Eye Camp Report
 ## The Mo Dewji Foundation
 
 ---
@@ -281,7 +282,10 @@ markdown = f"""# Singida Eye Camp Report
 
 ### 2.1 General Frequency Distribution
 
-**Note:** Condition counts are based on the operated eye for each patient. Since the Singida dataset has a single "Conditions" column (not separated by eye), conditions are assigned to the eye that was operated on. Some individuals had more than one diagnosis (e.g., "Cataracts, Pterygium"), and each condition is counted separately.
+**Note:** Condition counts are higher than the number of procedures because:
+- Each patient has two eyes (right and left), and conditions are counted separately for each eye
+- Some individuals had more than one diagnosis in the same eye (e.g., "Cataracts; Pterygium"), and each condition is counted separately
+- Therefore, the frequency represents the total number of condition occurrences across all eyes, not the number of unique patients
 
 | Condition | Right Eye | Left Eye | Total |
 |----------|-----------|----------|-------|
@@ -324,14 +328,14 @@ plt.ylabel('Frequency', fontsize=11)
 plt.xticks(rotation=45, ha='right', fontsize=9)
 plt.grid(axis='y', alpha=0.3, linestyle='--')
 plt.tight_layout()
-plt.savefig('singida_chart_conditions_top10.png', dpi=300, bbox_inches='tight')
+plt.savefig('ifakara_chart_conditions_top10.png', dpi=300, bbox_inches='tight')
 plt.close()
 
 markdown += """
 
 #### Chart: Top 10 Conditions Distribution
 
-![Top 10 Conditions](singida_chart_conditions_top10.png)
+![Top 10 Conditions](ifakara_chart_conditions_top10.png)
 """
 
 markdown += """
@@ -378,14 +382,14 @@ plt.ylabel('Count', fontsize=11)
 plt.xticks(rotation=45, ha='right', fontsize=9)
 plt.grid(axis='y', alpha=0.3, linestyle='--')
 plt.tight_layout()
-plt.savefig('singida_chart_procedures.png', dpi=300, bbox_inches='tight')
+plt.savefig('ifakara_chart_procedures.png', dpi=300, bbox_inches='tight')
 plt.close()
 
 markdown += """
 
 #### Chart: Procedures Distribution
 
-![Procedures Distribution](singida_chart_procedures.png)
+![Procedures Distribution](ifakara_chart_procedures.png)
 """
 
 markdown += """
@@ -397,7 +401,7 @@ markdown += """
 ### 3.1 VA Distribution Across Time Points
 
 | Visual Acuity | Pre-op | 1 Day Post-op | 2 Weeks Post-op | 1 Month Post-op | Change (Pre-op to 1 Month) |
-|---------------|--------|---------------|-----------------|------------------|---------------------------|
+|---------------|--------|---------------|-----------------|------------------|----------------------------|
 """
 
 total_preop = sum(preop_va_count.values())
@@ -416,14 +420,13 @@ for va in all_va_values:
     week2_pct = (week2_count / total_week2 * 100) if total_week2 > 0 else 0
     month1_pct = (month1_count / total_month1 * 100) if total_month1 > 0 else 0
     
-    # Calculate change from preop to 1 month (prefer 1 month, fallback to 2 weeks)
-    final_count = month1_count if month1_count > 0 else week2_count
-    if preop_count > 0 and final_count > 0:
-        change = ((final_count - preop_count) / preop_count * 100)
+    # Calculate change from preop to 1 month
+    if preop_count > 0 and month1_count > 0:
+        change = ((month1_count - preop_count) / preop_count * 100)
         change_str = f"{change:+.2f}%"
-    elif preop_count == 0 and final_count > 0:
+    elif preop_count == 0 and month1_count > 0:
         change_str = "+∞%"
-    elif preop_count > 0 and final_count == 0:
+    elif preop_count > 0 and month1_count == 0:
         change_str = "-100%"
     else:
         change_str = "N/A"
@@ -445,13 +448,13 @@ def get_va_score(va):
     }
     return va_scores.get(va, 99)
 
-# Calculate improvement for each patient (use 1 month if available, else 2 weeks)
+# Calculate improvement for each patient (using month1 if available, otherwise week2)
 for patient in patient_improvements:
     preop_score = get_va_score(patient['preop_va'])
-    final_score = get_va_score(patient['final_va'])
-    improvement = preop_score - final_score  # Positive = improvement
+    followup_score = get_va_score(patient['followup_va'])
+    improvement = preop_score - followup_score  # Positive = improvement
     patient['improvement'] = improvement
-    patient['achieved_6_6'] = (patient['final_va'] == '6/6')
+    patient['achieved_6_6'] = (patient['followup_va'] == '6/6')
 
 # Sort: first by achieved 6/6, then by improvement (descending)
 patient_improvements.sort(key=lambda x: (not x['achieved_6_6'], -x['improvement']))
@@ -548,21 +551,21 @@ plt.xticks(x, gender_labels, rotation=45, ha='right', fontsize=9)
 plt.legend(fontsize=10)
 plt.grid(axis='y', alpha=0.3, linestyle='--')
 plt.tight_layout()
-plt.savefig('singida_chart_gender_comparison.png', dpi=300, bbox_inches='tight')
+plt.savefig('ifakara_chart_gender_comparison.png', dpi=300, bbox_inches='tight')
 plt.close()
 
 markdown += """
 
 #### Chart: Top 10 Conditions by Gender Comparison
 
-![Gender Comparison](singida_chart_gender_comparison.png)
+![Gender Comparison](ifakara_chart_gender_comparison.png)
 """
 
 markdown += """
 
 ### 4.2 Frequency Distribution of Conditions by Age Groups
 
-**Methodology:** Patients were categorized into four age groups based on their age at the time of the eye camp: 19-40 years (young adults), 41-60 years (middle-aged), 61-80 years (older adults), and 81+ years (elderly). Conditions were assigned to the operated eye for each patient, since the dataset has a single "Conditions" column. This allows for comparison of condition prevalence across different age demographics. The analysis includes all condition occurrences, meaning if a patient had multiple conditions (e.g., "Cataracts, Pterygium"), each condition was counted separately.
+**Methodology:** Patients were categorized into four age groups based on their age at the time of the eye camp: 19-40 years (young adults), 41-60 years (middle-aged), 61-80 years (older adults), and 81+ years (elderly). Conditions were counted separately for each eye (right and left) within each age group, similar to the gender analysis. This allows for comparison of condition prevalence across different age demographics. The analysis includes all condition occurrences across both eyes, meaning if a patient had multiple conditions in the same eye or conditions in both eyes, each occurrence was counted separately.
 
 #### Chart: Top 10 Conditions by Age Group Comparison
 
@@ -592,14 +595,14 @@ plt.xticks(x, age_labels, rotation=45, ha='right', fontsize=9)
 plt.legend(fontsize=10, loc='upper right')
 plt.grid(axis='y', alpha=0.3, linestyle='--')
 plt.tight_layout()
-plt.savefig('singida_chart_age_comparison.png', dpi=300, bbox_inches='tight')
+plt.savefig('ifakara_chart_age_comparison.png', dpi=300, bbox_inches='tight')
 plt.close()
 
-markdown += """![Age Group Comparison](singida_chart_age_comparison.png)
+markdown += """![Age Group Comparison](ifakara_chart_age_comparison.png)
 """
 
 # Write to file
-with open('singida_report.md', 'w', encoding='utf-8') as f:
+with open('ifakara_report.md', 'w', encoding='utf-8') as f:
     f.write(markdown)
 
 print("Report generated successfully!")

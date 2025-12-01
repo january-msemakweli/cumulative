@@ -1,0 +1,302 @@
+﻿Patient Number,Patient Name,Age,Gender,Conditions Right Eye,Conditions Left Eye,Surgical Procedure Perfomed,"PREOP VA - Right Eye	","PREOP VA - Left Eye	",1 Day Post OP VA - Right Eye,1 Day Post OP VA - Left Eye,2 Weeks Post OP VA - Right Eye,2 Weeks Post OP VA - Left Eye,1 Month Post OP VA - Right Eye,1 Month Post OP VA - Left Eye
+MC0925-1016,Seleman Mohamed,86,Male,Cataracts,Cataracts,SICS - LE,HM,HM,HM,6/60,HM,6/24,HM,6/12
+MC0925-102,Answar Abdul -Rahman,23,Male,Conjmass,None,EXCISION - RE,6/9,CF3M,6/9,6/60,6/9,6/60,6/9,6/24
+MC0925-1037,Cremesia Fransis,50,Female,Presbyopia; Pterygium,Presbyopia; Pterygium,EXCISION - LE,6/9,6/9,6/9,6/9,6/9,6/9,6/9,6/9
+MC0925-1040,Spesioza Isundwa,55,Female,Cataracts,Immature Cataracts,SICS - RE,CF5M,6/60,6/60,6/60,6/36,6/60,6/12,6/60
+MC0925-1043,Joseph Martin,60,Male,Pseudophakia,Cataracts,SICS - LE,6/6,CFN,6/6,6/60,6/6,6/24,6/6,6/12
+MC0925-105,Sara Japhet,63,Female,Cataracts,None,SICS - RE,HM,6/18,6/60,6/18,6/36,6/18,6/12,6/18
+MC0925-1050,Leticia Charles,22,Female,None,Cataracts,SICS - LE,6/6,HM,6/6,6/60,6/6,6/24,6/6,6/12
+MC0925-1070,Tumaini Lekuchela,37,Male,None,Pterygium,EXCISION - LE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-1100,Annie Hango,70,Female,Immature Cataracts,Cataracts,SICS - LE,6/36,CF3M,6/36,CF2M,6/36,6/60,6/36,6/24
+MC0925-1104,Abdul-Rashid Mohammedi,63,Male,None,Cataracts,SICS - LE,6/18,CF3M,6/18,6/60,6/18,6/18,6/18,6/9
+MC0925-1150,Godfrey Milimo,38,Male,Pterygium,None,EXCISION - RE,6/9,6/9,6/9,6/9,6/6,6/9,6/6,6/9
+MC0925-1176,Elizabeth Zebedayo,30,Female,Pterygium,None,EXCISION - RE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-1204,Amina 0mari,35,Female,Cataracts,Cataracts,SICS - LE,HM,HM,HM,6/60,HM,6/24,HM,6/18
+MC0925-1214,Steven Kiswanya,62,Male,,Chalazion,EXCISION - LE,6/12,6/12,6/12,6/12,6/12,6/12,6/12,6/9
+MC0925-1226,Silvia Kilongola,73,Female,Cataracts,Cataracts,SICS - LE,PL,PL,PL,6/60,PL,6/24,PL,6/12
+MC0925-1266,Bonny Komba,46,Male,Pterygium,Chalazion,INCISION & DRAINAGE - LE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-1267,Stanley Zahoro,61,Male,None,Cataracts,SICS - LE,6/9,CF2M,6/9,6/60,6/9,6/24,6/9,6/18
+MC0925-1285,Mwadawa Said,35,Female,None,Pterygium,EXCISION - LE,6/6,6/9,6/6,6/9,6/6,6/6,6/6,6/6
+MC0925-1298,Asha Salumu,70,Female,Cataracts,Cataracts,SICS - RE,HM,CFN,CF4M,CFN,6/36,CFN,6/12,CFN
+MC0925-1361,Shida Jumbe,89,Female,Cataracts,Cataracts,SICS - RE,HM,HM,6/60,HM,6/60,HM,6/36,HM
+MC0925-139,Cosmas Ndongo,72,Male,Cataracts,Immature Cataracts,SICS - RE,CF5M,6/18,6/60,6/18,6/24,6/18,6/24,6/18
+MC0925-1420,Daniel Joseph,87,Male,Cataracts,Cataracts,SICS - RE,CF3M,CFN,CF5M,CFN,6/36,CFN,6/12,CFN
+MC0925-1425,Beata Joseph,75,Female,Immature Cataracts,Cataracts,SICS - LE,6/60,CF3M,6/60,6/60,6/60,6/60,6/60,6/24
+MC0925-15,Paskali Rafaeli,64,Male,Cataracts,Conjmass,EXCISION - LE; SICS - RE,HM,6/24,CF3M,6/24,6/60,6/24,6/24,6/24
+MC0925-1512,Ngunga Samsoni,63,Male,Cataracts,None,SICS - RE,HM,6/18,6/36,6/18,6/12,6/18,6/9,6/18
+MC0925-1559,Cosmas Mkomola,63,Male,None,Trichiasis,BTRP - LE,6/18,HM,6/18,6/60,6/18,6/12,6/18,6/12
+MC0925-1569,Abubakari Malik,11,Male,Cataracts,None,SICS - RE,HM,6/6,CFN,6/6,6/24,6/6,6/12,6/6
+MC0925-1571,Ahmedi Ibrahimu,52,Male,Cataracts,None,SICS - RE,HM,6/9,CF2M,6/9,6/24,6/9,6/18,6/9
+MC0925-1583,Salum Mohamed,69,Male,Cataracts,,SICS - RE,6/60,CF4M,6/36,CF4M,6/9,CF4M,6/6,CF4M
+MC0925-1596,Salum Athuman,62,Male,Cataracts,Cataracts,SICS - LE,CF4M,CF3M,CF1M,6/9,,,CF1M,6/6
+MC0925-1615,Ramadhani Suleiman,66,Male,Cataracts,Glaucoma,SICS - RE,CF1M,NPL,CF5M,NPL,6/24,NPL,6/18,NPL
+MC0925-1634,Ibrahimu Mbaluka,58,Male,None,Pterygium,EXCISION - LE,6/9,6/9,6/9,6/9,6/9,6/6,6/9,6/6
+MC0925-1637,Saidi Mambosasa,55,Male,Cataracts,Cataracts,SICS - LE,CF4M,HM,CF5M,6/24,CF5M,6/9,CF5M,6/6
+MC0925-1639,Dora Richard,52,Female,,Cataracts,SICS - LE,6/9,CF1M,6/9,6/60,6/9,6/24,6/9,6/12
+MC0925-1651,Bonyface Aurelio,62,Male,Cataracts,Cataracts,SICS - RE,CF5M,CF5M,6/60,CF5M,6/12,CF5M,6/9,CF5M
+MC0925-1723,Husseni Muhammed,56,Male,Pseudophakia,Cataracts,SICS - LE,6/18,CFN,6/18,6/60,6/18,6/12,6/18,6/9
+MC0925-1759,Silvia Kilongola,73,Female,Cataracts,None,SICS - RE,PL,6/60,CF3M,6/60,6/9,6/60,6/6,6/60
+MC0925-1770,Elimina Madenge,74,Female,Cataracts,Cataracts,SICS - RE,CF2M,CF4M,6/60,CF4M,6/24,CF4M,6/12,CF4M
+MC0925-1778,Editha Nicholous,50,Female,None,Pterygium,EXCISION - LE,6/9,6/12,6/9,6/12,6/9,6/9,6/9,6/6
+MC0925-1783,Shida Jumbe,89,Female,None,Cataracts,SICS - LE,6/60,HM,6/60,CF5M,6/60,6/36,6/60,6/12
+MC0925-1789,Felista Emmanuel,54,Female,Cataracts,Cataracts,SICS - RE,CF4M,HM,CF4M,6/60,CF4M,6/24,CF4M,6/24
+MC0925-1795,Mwanaisha Mustafa,55,Female,Cataracts,Pseudophakia,SICS - RE,HM,6/12,6/60,6/12,6/12,6/12,6/12,6/12
+MC0925-18,Efrem Ehudi,74,Male,Cataracts,Cataracts,SICS - LE,6/60,CF3M,6/60,CF5M,6/60,6/60,6/60,6/36
+MC0925-1804,Anie Hango,70,Female,Pterygium,Iris Prolapse,EXCISION - RE; IRIS REPOSITION - LE,6/36,CF2M,6/18,CF2M,6/12,CF2M,6/9,CF2M
+MC0925-182,Habiba A. Hamadi,40,Female,Pterygium,None,EXCISION - RE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-1832,Shamsi Khatibu,48,Male,Pterygium,Pterygium,EXCISION - RE,6/18,6/18,6/9,6/18,6/6,6/18,6/6,6/18
+MC0925-1871,Mariam Mussa,51,Female,None,Pterygium,EXCISION - LE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-1873,Wilhemina Bruno,63,Female,Cataracts,Cataracts,SICS - RE,CF3M,CF4M,6/36,CF4M,6/24,CF4M,6/12,CF4M
+MC0925-1887,Raphael Mkundi,65,Male,Immature Cataracts,Pterygium,EXCISION - LE,6/60,6/18,6/60,6/9,6/60,6/6,6/60,6/6
+MC0925-1890,Halima Juma,81,Female,Cataracts,Retinopathy,SICS - RE,CF2M,CF1M,CF3M,CF1M,6/60,CF1M,6/12,CF1M
+MC0925-19,Husna Zahoro,39,Female,Pterygium,None,EXCISION - RE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-1906,Patson Yumbayumba,73,Male,Cataracts,Cataracts,SICS - RE,CFN,CF5M,CF5M,CF5M,6/24,CF5M,6/12,CF5M
+MC0925-191,Hashumu Amani,70,Male,Cataracts,Immature Cataracts,SICS - RE,PL,6/60,CF1M,6/60,6/36,6/60,6/24,6/60
+MC0925-193,Tabia Salum,52,Female,Pterygium,None,EXCISION - RE,6/9,6/9,6/6,6/9,6/6,6/9,6/6,6/9
+MC0925-198,Asha Luwela,56,Female,Cataracts,Cataracts,SICS - RE,CF3M,CF2M,CF3M,6/36,CF3M,6/24,CF3M,6/12
+MC0925-200,Eufrasia Omari,56,Female,Pterygium,None,EXCISION - RE,6/36,6/24,6/6,6/24,6/6,6/24,6/60,6/24
+MC0925-2007,Waziri Akida,71,Male,Cataracts,Cataracts,SICS - LE,CF5M,CF3M,CF5M,CF5M,CF5M,6/36,CF5M,6/18
+MC0925-2010,Thomas Thomas,20,Male,Cataracts,None,SICS - RE,HM,6/6,HM,6/6,6/36,6/6,6/18,6/6
+MC0925-2013,Catherin Mateyi,62,Female,Cataracts,Cataracts,SICS - LE,6/60,CF4M,6/60,6/60,6/60,6/24,6/60,6/12
+MC0925-2023,Asha Ali,61,Female,Immature Cataracts,Cataracts,SICS - LE,6/36,HM,6/36,6/60,6/36,6/24,6/36,6/9
+MC0925-2028,Monica Cornel,63,Female,Cataracts,Cataracts,SICS - RE,CF3M,CF4M,6/60,CF4M,6/24,CF4M,6/12,6/12
+MC0925-2035,Salum Mohamed,88,Male,Cataracts,Immature Cataracts,SICS - RE,HM,CF5M,6/60,CF5M,6/12,CF5M,6/9,CF5M
+MC0925-2041,Emeresiana Simon,67,Female,None,Cataracts,SICS - LE,6/9,CF4M,6/9,6/18,6/9,6/9,6/6,6/9
+MC0925-2050,Hadija Sud,42,Female,Pterygium,None,EXCISION - RE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-2056,Mwanahawa Kibode,73,Female,Cataracts,Cataracts,SICS - RE,HM,CF2M,CF5M,CF2M,6/36,CF2M,6/12,CF2M
+MC0925-2063,Michael Hosea,55,Male,Presbyopia; Pterygium,Presbyopia,EXCISION - RE,6/24,6/9,6/24,6/9,6/9,6/9,6/6,6/6
+MC0925-2065,Nyoroge Shilole,83,Male,Cataracts,Cataracts,SICS - RE,CF4M,CF3M,CF4M,6/60,CF4M,6/24,CF4M,6/12
+MC0925-207,Saidi Amini,60,Male,Cataracts; Glaucoma,Cataracts,SICS - LE,HM,CFN,HM,6/60,HM,6/24,HM,6/18
+MC0925-208,Agnes Mapunda,67,Female,Immature Cataracts,Cataracts,SICS - LE,6/60,CF3M,6/60,6/36,6/60,6/24,6/60,6/18
+MC0925-2082,Lydia Kitanda,53,Female,Pterygium,None,EXCISION - RE,6/6,6/9,6/6,6/9,6/6,6/9,6/6,6/9
+MC0925-2083,Mwauma Abedi,66,Female,Cataracts,Cataracts,SICS - LE,6/60,HM,6/60,CF3M,6/60,6/24,6/60,6/18
+MC0925-2094,Noelia Mwanisega,57,Male,Pterygium,Pterygium,EXCISION - LE,6/18,6/18,6/18,6/18,6/18,6/18,6/18,6/6
+MC0925-2134,Elias Sarungi,63,Male,Cataracts,Cataracts,SICS - LE,CF2M,CF1M,CF2M,6/60,CF2M,6/12,CF2M,6/9
+MC0925-2151,Waziri Hassani,71,Male,Cataracts,Cataracts,SICS - LE,6/12,CF2M,6/12,CF5M,6/12,6/24,6/12,6/12
+MC0925-216,Rehema Selemani,75,Female,Pseudophakia,Cataracts,SICS - LE,6/12,HM,6/12,CF5M,6/12,6/60,6/12,6/36
+MC0925-217,Shaabani Saidi,52,Male,Immature Cataracts,Cataracts,SICS - LE,6/36,CF3M,6/36,6/60,6/36,6/36,6/36,6/24
+MC0925-2181,Emmanuel Kakome,90,Male,Cataracts,Cataracts,SICS - LE,6/60,CF3M,6/60,CF5M,6/60,6/24,6/60,6/12
+MC0925-222,Kasini Raphael,77,Male,Cataracts,Cataracts,SICS - LE,CF4M,HM,CF4M,CF4M,CF4M,6/60,CF4M,6/24
+MC0925-2228,Naimesoi Marco,11,Male,None,Cataracts,SICS - LE,6/9,CF2M,6/9,6/18,6/9,6/9,6/9,6/6
+MC0925-2243,Rahma Shani,52,Female,Pterygium,Retinopathy,EXCISION - LE,6/9,6/9,6/9,6/9,6/9,6/9,6/9,6/9
+MC0925-2301,Saidi Mbigila,72,Male,Pseudophakia,Cataracts,SICS - LE,6/18,CFN,6/18,CF5M,6/18,6/24,6/12,6/12
+MC0925-2315,Cornel Damian,33,Male,Cataracts,None,SICS - RE,HM,CFN,HM,CFN,6/36,CFN,6/24,CFN
+MC0925-2339,Maria Batolomeo,70,Female,Cataracts,Cataracts,SICS - LE,CF3M,CF2M,CF3M,CF4M,,,CF3M,6/60
+MC0925-2369,Leonard Julius,53,Male,Allergic Conjunctivitis,Pterygium,EXCISION - LE,6/6,6/6,6/6,6/6,6/6,6/6,6/9,6/6
+MC0925-2423,Mustafa Ibrahim,60,Male,Cataracts,Cataracts,SICS - LE,CF4M,CF1M,CF4M,CF5M,CF4M,6/24,CF4M,6/12
+MC0925-2432,Moza Hamad,46,Female,None,Cataracts,ICCE - LE,6/6,NPL,6/6,NPL,6/6,NPL,6/6,NPL
+MC0925-248,Rebeka Mzaliwa,80,Female,,Cataracts,SICS - LE,CF5M,PL,CF5M,CF2M,CF5M,6/36,CF5M,6/24
+MC0925-2488,Anna Bernad,46,Female,Presbyopia; Pterygium,Presbyopia,EXCISION - RE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-2489,Witness Frank Matani,24,Female,Allergic Conjunctivitis; Pterygium,Allergic Conjunctivitis; Pterygium,EXCISION - RE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-2492,Nezia Joseph,48,Female,None,Pterygium,EXCISION - LE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-2496,Amina Mwishehe,87,Female,Cataracts,Cataracts,SICS - RE,PL,CFN,CF4M,CFN,CF5M,CFN,6/60,CFN
+MC0925-2502,Amina Shabani,72,Female,,Cataracts,SICS - LE,CF4M,CF1M,CF4M,6/36,CF4M,6/24,CF4M,6/12
+MC0925-251,Evarist Kaungu,66,Male,Cataracts,Immature Cataracts,EXCISION - RE,CF1M,6/60,CF4M,6/60,6/60,6/60,6/36,6/60
+MC0925-2528,Dorica Mgusi,73,Female,Cataracts,Cataracts,SICS - RE,CF1M,6/6,CF2M,6/6,CF2M,6/6,CF5M,6/6
+MC0925-2530,Elisa Mbambile,72,Female,Cataracts,Cataracts,SICS - RE,CF1M,6/36,6/60,6/36,6/24,6/36,6/9,6/36
+MC0925-254,Tamimu Ramadhani,48,Male,Conjmass,None,INCISION & DRAINAGE - RE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-2568,Tausi Ally,48,Female,Chalazion,None,EXCISION - RE,6/9,6/9,6/6,6/9,6/6,6/9,6/6,6/9
+MC0925-2585,Magdalena Edward,48,Female,Pterygium,Pterygium,EXCISION - RE,6/12,6/36,6/9,6/36,6/6,6/36,6/6,6/36
+MC0925-2598,Rafael Banzi,73,Male,Cataracts,Cataracts,SICS - LE,CF5M,HM,CF5M,CF5M,CF5M,6/9,CF5M,6/6
+MC0925-2649,Maneno Khamis,61,Male,Cataracts,Corneal Scar,SICS - RE,CF3M,HM,6/18,HM,6/6,HM,6/6,HM
+MC0925-2658,Andarson Yoram,45,Male,Pterygium,,EXCISION - RE,6/9,6/9,6/9,6/9,6/6,6/9,6/6,6/9
+MC0925-266,Desdelia Temelayinga,60,Female,Retinopathy,Cataracts,SICS - LE,6/6,PL,6/6,CF2M,6/6,6/60,6/6,6/24
+MC0925-2672,Jacqiline Shayo,34,Female,Pterygium,None,EXCISION - RE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-27,Amina Maguluko,42,Female,Pterygium,None,EXCISION - RE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-2736,Moshi Jumq,50,Female,Cataracts,Chalazion,SICS - LE,CF3M,CF3M,CF3M,6/60,CF3M,6/24,CF3M,6/9
+MC0925-2739,Malombe Bajuta,73,Male,Cataracts,Cataracts,SICS - LE,HM,HM,HM,6/24,HM,6/18,HM,6/9
+MC0925-2744,Caroline Christian Mdandu,86,Female,Cataracts,Cataracts,SICS - LE,PL,HM,PL,CF5M,PL,6/60,PL,6/12
+MC0925-275,Ramadhani Mkwizu,53,Male,None,Cataracts,SICS - LE,6/9,CF1M,6/9,6/60,6/9,6/24,6/9,6/18
+MC0925-2774,Anna Kimaro,53,Female,Presbyopia,Chalazion; Presbyopia,INCISION & DRAINAGE - LE,6/9,6/9,6/9,6/9,6/9,6/9,6/9,6/6
+MC0925-28,Nezia Mkama,65,Female,Allergic Conjunctivitis; Cataracts,Allergic Conjunctivitis; Pseudophakia,SICS - RE,CFN,6/18,CFN,6/18,6/24,6/18,6/12,6/18
+MC0925-2802,Catherine Mbena,65,Female,Cataracts,Pseudophakia,SICS - RE,CF5M,6/18,6/36,6/18,6/24,6/18,6/6,6/18
+MC0925-2804,Hashimu Said,62,Male,Immature Cataracts; Pterygium,Immature Cataracts,EXCISION - RE,6/24,6/12,6/18,6/12,6/9,6/12,6/6,6/12
+MC0925-2824,Charles Thadei,63,Male,Presbyopia,Presbyopia; Pterygium,EXCISION - LE,6/18,6/9,6/18,6/9,6/18,6/6,6/18,6/6
+MC0925-2829,Anna Simon,23,Female,Trauma Cataract,None,SICS - RE,HM,6/6,CF1M,6/6,6/60,6/6,6/9,6/6
+MC0925-2841,Jane Manase,66,Female,Cataracts,Cataracts,SICS - LE,CF5M,CF4M,CF5M,6/60,CF5M,6/36,CF5M,6/9
+MC0925-2845,Agness Matende,50,Female,Cataracts,Cataracts,SICS - LE,CF4M,CF3M,CF4M,6/36,CF4M,6/24,CF4M,6/9
+MC0925-2858,Amiri Mguluka,66,Male,Cataracts,Cataracts,SICS - LE,NPL,CF3M,NPL,6/60,NPL,6/36,NPL,6/9
+MC0925-2885,Ramadhani Iddi,74,Male,Pseudophakia,Cataracts,SICS - LE,CFN,HM,CFN,CF2M,CFN,6/24,6/6,6/9
+MC0925-2902,Athuman Makame,70,Male,Cataracts,Cataracts,SICS - RE,CF1M,6/18,CF3M,6/18,6/60,6/18,6/12,6/18
+MC0925-2951,Generoza Thadei,60,Female,Cataracts,Cataracts,SICS - RE,CF2M,CF3M,CF5M,CF3M,6/36,CF3M,6/12,CF3M
+MC0925-2955,Rukia Salehe,63,Female,Cataracts,Cataracts,SICS - RE,CF4M,CF3M,6/60,CF3M,6/18,CF3M,6/9,CF3M
+MC0925-2956,Thabit Abdallah,80,Male,Immature Cataracts,Cataracts,SICS - LE,6/24,CF2M,6/24,6/60,6/24,6/36,6/24,6/9
+MC0925-2965,Gaudencia Olang,67,Female,Cataracts,Pterygium,EXCISION - RE; SICS - RE,CF2M,6/9,6/60,6/9,6/24,6/9,6/12,6/9
+MC0925-2974,Issa Masudi,61,Male,Cataracts,Cataracts,SICS - RE,CF5M,CF5M,6/60,CF5M,6/36,CF5M,6/9,CF5M
+MC0925-2982,Maria Francis,60,Female,Immature Cataracts,Cataracts,SICS - LE,6/24,HM,6/24,CF5M,6/24,6/24,6/24,6/9
+MC0925-3020,Losaria Alphonce,80,Female,Cataracts,Cataracts,SICS - LE,CF5M,HM,CF5M,CF5M,CF5M,6/36,CF5M,6/12
+MC0925-3029,Zainabu Issa,64,Female,Cataracts,Cataracts,SICS - RE,CF1M,CF5M,CF2M,CF5M,6/60,CF5M,6/12,CF5M
+MC0925-3060,Mayasa Thomas,76,Female,Cataracts,Cataracts,SICS - RE,CF2M,6/60,CF5M,6/60,6/36,6/60,6/12,6/60
+MC0925-3062,Abdalla Bakari,79,Male,Pseudophakia,Cataracts,SICS - LE,6/36,CFN,6/36,CF5M,6/36,6/60,6/36,6/9
+MC0925-3073,Salum Mande,76,Male,Cataracts,Pseudophakia,SICS - RE,CF2M,CF3M,CF5M,CF3M,6/24,CF3M,6/9,CF3M
+MC0925-3076,Martha Hurulu,65,Female,None,Cataracts,SICS - LE,6/12,HM,6/12,6/60,6/12,6/24,6/12,6/9
+MC0925-3089,Anna Lutengano,44,Female,Presbyopia; Pterygium,Presbyopia,EXCISION - RE,6/24,6/18,6/18,6/18,6/9,6/18,6/6,6/18
+MC0925-310,Asha Ally,73,Female,Pseudophakia,Cataracts,SICS - LE,6/24,HM,6/24,CF5M,6/24,6/36,6/24,6/24
+MC0925-3101,Burhan Mwalimu,58,Male,Cataracts,Immature Cataracts,SICS - RE,CF3M,6/36,6/60,6/36,6/24,6/36,6/9,6/36
+MC0925-3110,Amina Suleiman Mfunga,60,Female,Cataracts; Pterygium,Cataracts,SICS - RE,CF4M,CF4M,6/24,CF4M,6/18,CF4M,6/6,CF4M
+MC0925-3114,Safina Shabani,67,Female,Cataracts; Trichiasis,Cataracts,BTRP - RE,CF1M,CF3M,CF5M,CF3M,6/60,CF3M,6/9,CF3M
+MC0925-3135,Fidelis Kayanda,60,Male,Cataracts,Cataracts,SICS - LE,CF5M,CF2M,CF5M,CF5M,CF5M,6/36,CF5M,6/9
+MC0925-3144,Rhoda Mbawa,70,Female,Cataracts; Pterygium,Cataracts; Pterygium,SICS - RE,CF5M,6/60,6/36,6/60,6/24,6/60,6/9,6/60
+MC0925-3193,Adamu Habibu,64,Male,Immature Cataracts,Cataracts,SICS - LE,6/18,CF4M,6/18,6/36,6/18,6/24,6/18,6/9
+MC0925-3195,Jerome Leonard,71,Male,Cataracts,Immature Cataracts,SICS - RE,CF5M,6/60,6/24,6/60,6/18,6/60,6/9,6/60
+MC0925-3222,Patrick Chamlomo,62,Male,None,Pterygium,EXCISION - LE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-3229,Anna Assenga,52,Female,Immature Cataracts,Cataracts,SICS - LE,6/60,CF4M,6/60,6/60,6/60,6/18,6/60,6/12
+MC0925-3242,Nesia Mbata,72,Female,Cataracts,Immature Cataracts,SICS - RE,CF4M,6/24,6/36,6/24,6/24,6/24,6/9,6/24
+MC0925-3269,Asha Ismail,85,Female,Cataracts,Pseudophakia,SICS - RE,CF2M,6/36,CF5M,6/36,6/24,6/36,6/9,6/36
+MC0925-3334,Yahana Hassan,70,Male,Pseudophakia,Cataracts,SICS - LE,PL,CF4M,PL,6/60,PL,6/12,PL,6/9
+MC0925-3354,Foibe Azaria,77,Female,None,Cataracts,SICS - LE,6/18,CF4M,6/18,6/6,6/18,6/6,6/18,6/6
+MC0925-34,Rajabu Ally,65,Male,Cataracts,Cataracts,SICS - RE; SICS - LE,CF4M,CF3M,6/60,CF3M,6/24,CF3M,6/12,CF3M
+MC0925-3430,Jonas Mgandila,76,Male,Immature Cataracts,Cataracts,SICS - LE,6/24,HM,6/24,CF3M,6/24,6/24,6/24,6/9
+MC0925-3433,Magreth Kazumati,28,Female,Pseudophakia,Cataracts,SICS - LE,6/36,HM,6/36,6/60,6/36,6/18,6/36,6/9
+MC0925-3451,Mariamu Rashid,37,Female,Pterygium,Pterygium,EXCISION - RE,6/9,6/9,6/9,6/9,6/6,6/9,6/6,6/9
+MC0925-3458,Jackline Ramadhan,36,Female,None,Conjmass,SICS - LE,6/24,CF5M,6/24,6/18,6/24,6/9,6/24,6/6
+MC0925-3491,Matilda John,36,Female,Pterygium,Allergic Conjunctivitis,EXCISION - RE,6/9,6/9,6/18,6/9,6/12,6/9,6/9,6/9
+MC0925-3514,Juma Clement,55,Male,Astigmatism,Cataracts,SICS - LE,6/18,CFN,6/18,CF2M,6/18,6/60,6/18,6/9
+MC0925-3518,Amina Yahaya,57,Female,None,Cataracts; Pterygium,EXCISION - LE; SICS - LE,6/12,CF5M,6/12,6/9,6/12,6/9,6/12,6/9
+MC0925-3520,Chiku Hamisi,68,Female,Pterygium,Immature Cataracts,EXCISION - RE,6/24,6/24,6/12,6/24,6/12,6/24,6/12,6/24
+MC0925-3540,Mwanne Hussein,34,Female,Pterygium,Pterygium,EXCISION - RE,6/9,6/9,6/9,6/9,6/9,6/9,6/6,6/9
+MC0925-3574,Nasra Idd,15,Female,Conjmass,None,EXCISION - RE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-3578,Ally Salum,63,Male,Immature Cataracts,Cataracts,SICS - LE,6/18,CFN,6/18,CF3M,6/18,6/24,6/18,6/6
+MC0925-3620,Akwilini Claudi,66,Male,Cataracts,Cataracts,SICS - LE,CF5M,CF3M,CF5M,6/24,CF5M,6/18,CF5M,6/9
+MC0925-363,Mgesi Makenge,67,Male,Cataracts,Immature Cataracts,SICS - RE,CF3M,6/36,6/60,6/36,6/36,6/36,6/24,6/36
+MC0925-3679,Kisanga Salumu,28,Female,Pterygium,Pterygium,EXCISION - LE,6/18,6/18,6/18,6/18,6/18,6/9,6/18,6/6
+MC0925-3684,Grace Shore,67,Female,Cataracts,Immature Cataracts,SICS - RE,CF4M,6/60,6/36,6/60,6/18,6/60,6/9,6/60
+MC0925-3697,Mwendeche Nghambi,51,Female,None,Cataracts,SICS - LE,6/9,CFN,6/9,CF1M,6/9,6/60,6/9,6/9
+MC0925-3698,Anthony Gomelavagi,79,Male,Cataracts,Cataracts,SICS - RE,CF4M,6/60,6/60,6/60,6/12,6/60,6/6,6/60
+MC0925-37,Jane Muhina,48,Female,None,Pterygium,EXCISION - LE,6/36,6/36,6/36,6/9,6/36,6/9,6/36,6/6
+MC0925-3760,Hassani Saidi,72,Male,Cataracts; Presbyopia,Presbyopia,SICS - RE,CF4M,6/9,6/60,6/9,6/18,6/9,6/6,6/9
+MC0925-38,Ahmed Adamu,49,Male,Pseudophakia,Cataracts,SICS - LE,6/24,CF2M,6/24,6/60,6/24,6/36,6/24,6/18
+MC0925-3846,Dorothea Mkwega,33,Female,Pterygium,None,EXCISION - RE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-3868,Rosemary Leons Kobero,50,Female,Pterygium,Pterygium,EXCISION - RE,6/9,6/9,6/9,6/9,6/9,6/9,6/9,6/9
+MC0925-3877,Kivaria Kilenge,34,Male,Pterygium,None,EXCISION - RE,6/18,6/18,6/18,6/18,6/18,6/18,6/18,6/18
+MC0925-39,Modesta Nyambita,60,Female,Cataracts,Cataracts,SICS - RE; SICS - LE,PL,CF2M,6/60,CF2M,6/18,CF2M,6/9,CF2M
+MC0925-3914,Subira Mohamed,28,Female,None,Pterygium,EXCISION - LE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-3943,Daudi Elikana,35,Male,Cataracts,None,SICS - RE,HM,6/9,CF2M,6/9,6/24,6/9,6/9,6/9
+MC0925-396,Stella Ibrahim,39,Female,Cataracts; Uveitis,Glaucoma,SICS - RE,CF1M,NPL,CF2M,NPL,6/24,NPL,6/12,NPL
+MC0925-3981,Hadija Rajabu,21,Female,None,Chalazion,INCISION & DRAINAGE - LE,6/12,6/12,6/12,6/9,6/12,6/9,6/12,6/9
+MC0925-4002,Restituta Peter,61,Female,Pseudophakia,Cataracts,SICS - LE,6/36,CF3M,6/36,CF5M,6/36,6/60,6/36,6/9
+MC0925-401,Gorden Mpembwa,62,Male,Cataracts,None,SICS - RE,CF2M,CF5M,6/36,CF5M,6/24,CF5M,6/18,CF5M
+MC0925-4010,Abrahman Lehan,33,Male,None,Chalazion,EXCISION - LE,6/36,6/60,6/36,6/60,6/36,6/60,6/36,6/60
+MC0925-4023,Elisia Peter,62,Female,Presbyopia,Presbyopia,EXCISION - RE,6/60,6/60,6/60,6/9,6/60,6/9,6/60,6/6
+MC0925-4027,Anitha Shilima,36,Female,Allergic Conjunctivitis,Allergic Conjunctivitis,EXCISION - LE,6/9,6/9,6/9,6/9,6/6,6/6,6/6,6/6
+MC0925-4050,Beatrice Magesa,34,Female,None,Chalazion,INCISION & DRAINAGE - RE,6/12,6/12,6/9,6/12,6/9,6/12,6/9,6/12
+MC0925-413,Salum Mwinyimvua,68,Male,Pseudophakia,Cataracts,SICS - LE,CF5M,CF4M,CF5M,6/60,CF5M,6/24,CF5M,6/12
+MC0925-4193,Doreena Marcha,48,Female,Pterygium,Pterygium,EXCISION - LE,6/18,6/18,6/18,6/6,6/18,6/6,6/18,6/6
+MC0925-4196,Zaituni Ramadhani,42,Female,None,Optical Neuropathy; Pterygium,EXCISION - LE,6/24,CF4M,6/24,6/60,6/24,6/36,6/24,6/9
+MC0925-4197,Hamali Athuman,74,Female,Cataracts,Cataracts,SICS - RE,CF1M,CF1M,CF5M,CF1M,6/36,CF1M,6/6,CF1M
+MC0925-4202,Saidi Mambosasa,55,Male,Cataracts,Pseudophakia,SICS - RE,CF4M,6/36,6/36,6/36,6/24,6/36,6/12,6/36
+MC0925-4204,Msafiri Mohamedi,50,Male,Cataracts,,SICS - RE,HM,6/9,CF5M,6/9,6/60,6/9,6/12,6/9
+MC0925-4232,Hawa Chunga,53,Female,Cataracts,Cataracts,SICS - LE,CF5M,CF3M,CF5M,6/60,CF5M,6/24,CF5M,6/9
+MC0925-4252,Heneriko Weja,67,Male,Cataracts,Cataracts,SICS - RE,CF4M,CF5M,6/36,CF5M,6/24,CF5M,6/12,CF5M
+MC0925-4276,Elina Kimqro,52,Female,Cataracts,Immature Cataracts,SICS - RE,CF5M,6/60,CF5M,6/60,6/60,6/60,6/12,6/60
+MC0925-4278,Amina Mohamed,37,Female,Pterygium,Pterygium,EXCISION - RE,6/18,6/18,6/18,6/18,6/12,6/18,6/6,6/18
+MC0925-4294,Mohammed Seleman,65,Male,None,Cataracts,SICS - LE,6/18,CFN,6/18,CF5M,6/18,6/36,6/18,6/9
+MC0925-4302,Ansila Bundala,75,Female,Cataracts,Cataracts,SICS - RE,CF2M,CF2M,6/9,CF2M,6/6,CF2M,6/6,CF2M
+MC0925-4308,Sabato Manyama,71,Male,Cataracts,Cataracts,SICS - RE,6/18,HM,6/18,6/60,6/18,6/24,6/18,6/9
+MC0925-4320,Cheka Salum,84,Female,Cataracts,Pseudophakia,SICS - RE,CFN,6/24,CF5M,6/24,6/36,6/24,6/9,6/24
+MC0925-4322,Leonida Livingtone,46,Female,Cataracts,Cataracts,SICS - LE,CF3M,CF4M,CF3M,6/36,CF3M,6/24,CF3M,6/9
+MC0925-4328,Masoud Mohamed,76,Male,Immature Cataracts,Cataracts,SICS - LE,6/24,CF4M,6/24,6/60,6/24,6/36,6/24,6/36
+MC0925-4342,Nasir Yakobo,19,Male,None,Chalazion,INCISION & DRAINAGE - LE,6/9,6/9,6/6,6/9,6/6,6/9,6/6,6/9
+MC0925-4348,Sabra Ramadhan,40,Female,Pterygium,None,EXCISION - RE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-4352,Mrisho Hassan,61,Male,Cataracts,Cataracts,SICS - RE,HM,CF1M,6/60,CF1M,,,,
+MC0925-4353,Pendo Msote,77,Female,None,Chalazion,INCISION & DRAINAGE - LE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-4354,Omary Hasan,68,Male,Pseudophakia,Cataracts,SICS - LE,6/60,HM,6/60,6/60,6/60,6/24,6/60,6/12
+MC0925-4385,Saidi Matemanga,39,Male,Cataracts,Cataracts,SICS - LE,6/24,CFN,6/24,CF4M,6/24,6/60,6/24,6/24
+MC0925-4390,Felista John,46,Female,Presbyopia,Cataracts; Presbyopia,SICS - LE,6/9,CF3M,6/9,CF5M,6/9,6/18,6/9,6/9
+MC0925-4409,Bonyface Aurelia,62,Male,None,Cataracts,SICS - LE,6/24,HM,6/24,6/60,6/24,6/24,6/24,6/9
+MC0925-4429,Fatuma Tunga,26,Female,Conjunctival Cyst,Conjunctival Cyst,EXCISION - LE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-4437,Joseph Daudi,81,Male,Cataracts,Cataracts,SICS - LE,CF4M,CF2M,CF4M,6/60,CF4M,6/18,CF4M,6/9
+MC0925-4438,Emmanuel August,35,Male,None,Pterygium,EXCISION - LE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-4441,Abem Ismail,72,Male,Pseudophakia,Cataracts,SICS - LE,6/60,CF2M,6/60,CF5M,6/60,6/60,6/60,6/60
+MC0925-4450,Beatrice Komba,75,Female,Cataracts,Cataracts,SICS - LE,CF5M,CF4M,CF5M,6/60,CF5M,6/36,CF5M,6/12
+MC0925-4465,Nassoro Hassani,78,Male,Cataracts,Cataracts,SICS - LE,6/60,CF5M,6/60,6/18,6/60,6/18,6/60,6/18
+MC0925-4470,Rehema Omari,83,Female,Cataracts,Cataracts,SICS - LE,CF4M,CF3M,CF4M,6/60,CF4M,6/18,CF4M,6/9
+MC0925-4486,Semen Masoud,36,Female,Pterygium,None,EXCISION - RE,6/9,6/12,6/9,6/12,6/6,6/12,6/6,6/12
+MC0925-4515,Abdul Mfaume,71,Male,Cataracts,Cataracts,SICS - RE,CF4M,CF5M,6/60,CF5M,6/36,CF5M,6/9,CF5M
+MC0925-4518,Rosemary Leons Kobero,50,Female,None,Pterygium,EXCISION - LE,6/9,6/9,6/9,6/9,6/9,6/6,6/9,6/6
+MC0925-4537,Laurent Peter,17,Male,Allergic Conjunctivitis,Allergic Conjunctivitis; Trichiasis,BTRP -LE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-4539,Amina Suleiman Mfunga,60,Female,None,Cataracts,SICS - LE,6/24,CF4M,6/24,CFN,6/24,6/60,6/24,6/24
+MC0925-4540,Consolata Mgao,93,Female,Cataracts,Cataracts,SICS - RE,CF1M,CF1M,CF4M,CF1M,6/60,CF1M,6/12,CF1M
+MC0925-4575,Malombe Bajuta,73,Male,Cataracts,None,SICS - RE,HM,CF4M,6/60,CF4M,6/24,CF4M,6/9,CF4M
+MC0925-4591,Athumani Juma,62,Male,Cataracts,Cataracts,SICS - LE,6/9,HM,6/9,CF4M,6/9,6/60,6/9,6/12
+MC0925-4607,Liston John,50,Male,Cataracts,Cataracts,SICS - RE,CF3M,CF3M,6/24,CF3M,6/18,CF3M,6/6,CF3M
+MC0925-4610,Zena Ramadhan,69,Female,Cataracts,Cataracts,SICS - LE,6/60,CF4M,6/60,CFN,6/60,6/60,6/60,6/12
+MC0925-462,Atanas Tiago,54,Male,Cataracts,Immature Cataracts,SICS - RE,CF4M,6/60,6/18,6/60,6/9,6/60,6/6,6/60
+MC0925-4624,Serafeni Vitalis,61,Male,Cataracts,Cataracts,SICS - LE,CF5M,CF2M,CF5M,6/60,CF5M,6/24,CF2M,6/9
+MC0925-4627,Calorine Christian,86,Female,Cataracts,,SICS - RE,PL,HM,6/60,HM,6/24,HM,6/12,HM
+MC0925-4642,Amidu Salehe,65,Male,Cataracts,Cataracts,SICS - RE,CF3M,6/24,6/36,6/24,6/6,6/24,6/6,6/24
+MC0925-4700,Twaha Rashidi,70,Male,Cataracts,Pseudophakia,SICS - RE,CF1M,HM,CF1M,HM,6/18,HM,6/9,HM
+MC0925-4711,Ezekiel Adamu,68,Male,Cataracts,None,SICS - RE,CFN,6/12,6/60,6/12,6/36,6/12,6/6,6/12
+MC0925-479,Samweli Mwita,28,Male,Cataracts,None,SICS - RE,CF3M,6/6,CF5M,6/6,6/36,6/6,6/12,6/6
+MC0925-480,Silas Mgawanyi,78,Male,Immature Cataracts,Cataracts,SICS - LE,6/24,CF2M,6/24,6/60,6/24,6/24,6/24,6/18
+MC0925-481,Boniface Edward,41,Male,Pterygium,None,EXCISION - RE,6/9,6/9,6/6,6/9,6/6,6/9,6/6,6/9
+MC0925-4817,Tausi Omari,68,Female,Pterygium,Allergic Conjunctivitis,EXCISION - RE,CF5M,6/60,6/18,6/36,6/9,6/36,6/6,6/36
+MC0925-4819,Zainabu Rajabu,75,Female,Cataracts,Cataracts,SICS - RE,CF4M,CF4M,6/60,CF4M,6/36,CF4M,6/9,CF4M
+MC0925-4889,Aidan John,74,Male,Cataracts,Cataracts,SICS - RE,CF4M,CF5M,6/24,CF5M,6/18,CF5M,6/6,CF5M
+MC0925-49,Marick Peter,83,Male,Cataracts,Cataracts,SICS - RE; SICS - LE,HM,HM,6/60,HM,6/18,HM,6/9,HM
+MC0925-4912,Ally Shabani,75,Male,Immature Cataracts,Cataracts,SICS - LE,6/36,CFN,6/36,CF5M,6/36,6/36,6/36,6/9
+MC0925-4916,Mary Mringo,59,Female,Cataracts,Cataracts,SICS - LE,CF5M,CF2M,CF5M,CF3M,CF5M,6/60,CF5M,6/9
+MC0925-5003,Rajabu Omar,70,Male,Cataracts,Cataracts,SICS - RE,CF5M,6/60,CF4M,6/60,6/60,6/60,6/12,6/60
+MC0925-5027,Elias Amri,44,Male,Cataracts,Cataracts,SICS - LE,CF3M,CF3M,CF3M,CF5M,CF3M,6/36,CF3M,6/9
+MC0925-5038,Mariam Robert,35,Female,Pterygium,,EXCISION - RE,6/9,6/9,6/9,6/6,6/6,6/6,6/6,6/6
+MC0925-5116,Omary Juma,30,Male,Cataracts,None,SICS - RE,HM,6/9,CF4M,6/9,6/60,6/9,6/6,6/9
+MC0925-5135,Janeth Ndege,39,Female,Pterygium,Pterygium,EXCISION - RE,6/12,6/12,6/9,6/12,6/9,6/12,6/6,6/12
+MC0925-5153,Juma Zuberi,44,Male,Conjmass; Presbyopia,Pseudophakia,EXCISION - LE,6/9,6/9,6/9,6/6,6/9,6/9,6/9,6/6
+MC0925-5157,Heziron Charles,69,Male,Pseudophakia,Cataracts,SICS - LE,6/9,HM,6/9,6/36,6/9,6/24,6/9,6/12
+MC0925-5195,Mashaka Bernedicto,48,Male,Pterygium,Pterygium,EXCISION - RE,6/18,6/9,6/18,6/9,6/12,6/9,6/9,6/9
+MC0925-52,Mohamed Kibaha,80,Male,Cataracts,Cataracts,SICS - RE,CFN,CFN,6/60,CFN,6/18,CFN,6/9,CFN
+MC0925-5231,Bahati Ibrahim,45,Male,None,Conjmass,EXCISION - LE,6/9,6/9,6/9,6/6,6/9,6/6,6/9,6/6
+MC0925-5233,Abdallah Kivumbi,40,Male,Pterygium,None,EXCISION - RE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/18
+MC0925-5292,Sauda Mwananzila,64,Female,Cataracts,Cataracts,SICS - LE,CF3M,CF3M,CF3M,CF3M,CF3M,6/60,CF3M,6/9
+MC0925-5331,Witness Frank Matani,24,Female,None,Pterygium,EXCISION - LE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-5335,Asha Chembe,82,Female,Cataracts,Pseudophakia,SICS - RE,PL,6/36,6/6,6/36,6/6,6/36,6/6,6/36
+MC0925-535,Emmanuel Abel,24,Male,None,Cataracts,SICS - LE,6/36,HM,6/36,6/12,6/36,6/9,6/36,6/6
+MC0925-5353,Jumanne Salumu,53,Male,Cataracts,Cataracts,SICS - LE,6/60,HM,6/60,CF4M,6/60,6/24,6/60,6/24
+MC0925-5362,Zainabu Salumu,52,Female,Cataracts,Cataracts,SICS - RE,CF4M,CF3M,CF4M,6/9,CF4M,6/9,CF4M,6/6
+MC0925-5368,Zainabu Ali,74,Female,Cataracts,,SICS - RE,PL,CF2M,6/60,CF2M,6/24,CF2M,6/9,CF2M
+MC0925-538,Janeth Amandi,65,Female,Cataracts,Cataracts,SICS - RE,CF4M,CF5M,6/60,CF5M,6/24,CF5M,6/12,CF5M
+MC0925-5458,Zena Rajabu,76,Female,Cataracts,Cataracts,SICS - RE,CFN,CF2M,CF3M,CF2M,6/60,CF2M,6/12,CF2M
+MC0925-549,Devotha Mamsemwa,35,Female,None,Pterygium,EXCISION - LE,6/6,6/9,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-553,Sabina Joseph,74,Female,Cataracts,Cataracts,SICS - RE,CFN,CFN,6/60,CFN,6/18,CFN,6/12,CFN
+MC0925-56,Tunu Athumani,60,Female,Trichiasis,Trichiasis,BTRP - RE,6/60,6/36,6/60,6/36,6/60,6/36,6/60,6/36
+MC0925-568,Habibu Ibrahim,51,Male,None,Pterygium,EXCISION - LE,6/12,6/9,6/12,6/6,6/12,6/6,6/12,6/6
+MC0925-60,Anna Simon,63,Female,Cataracts; Conjmass,Cataracts,SICS - RE,6/60,6/60,6/36,6/6,6/24,6/6,6/18,6/6
+MC0925-64,Ally Migode,70,Male,Cataracts,Corneal Scar,SICS - RE,CFN,NPL,CF5M,NPL,6/24,NPL,6/18,NPL
+MC0925-645,Shadya Athumani,16,Female,None,Cataracts,SICS - LE,6/6,HM,6/6,CF2M,6/6,6/36,6/6,6/18
+MC0925-650,Jane Mngazija,80,Female,Cataracts,Pseudophakia,SICS - RE,CF2M,CF3M,6/60,CF3M,6/24,CF3M,6/12,CF3M
+MC0925-669,Asha Salum,43,Female,Pterygium,None,EXCISION - RE,6/12,6/9,6/6,6/9,6/6,6/9,6/6,6/9
+MC0925-723,Lucy Julius,59,Female,Presbyopia,Presbyopia; Pterygium,EXCISION - LE,6/6,6/9,6/6,6/9,6/6,6/9,6/6,6/9
+MC0925-73,Jamila Hangai,37,Female,,Cataracts,SICS - LE,CF5M,CF3M,CF5M,6/36,CF5M,6/24,CF5M,6/12
+MC0925-730,Mariam Joseph,51,Female,Cataracts,Cataracts,SICS - RE,CF2M,CF1M,6/60,CF1M,6/36,CF1M,6/24,CF1M
+MC0925-731,Sijahi Abdallah,90,Male,Cataracts,Cataracts,SICS - RE,HM,CF4M,6/60,CF4M,6/36,CF4M,6/12,CF4M
+MC0925-742,Mwanahamis Ramadhani,43,Female,Cataracts,Immature Cataracts,SICS - RE,CF1M,6/12,CF5M,6/12,6/60,6/12,6/24,6/12
+MC0925-747,Fikiri Mnale,55,Male,Pterygium,None,EXCISION - RE,6/9,6/9,6/9,6/6,6/6,6/6,6/6,6/6
+MC0925-750,Mariam Nasoro,61,Female,Cataracts,Cataracts,SICS - LE,CF4M,CF3M,CF4M,6/60,CF4M,6/24,CF4M,6/12
+MC0925-760,Edina Brighton,54,Female,Presbyopia; Pterygium,Presbyopia,EXCISION - RE,6/9,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-766,Elizabeth Alex,30,Female,Pterygium,Pterygium,EXCISION - RE,6/18,6/18,6/9,6/18,6/6,6/12,6/6,6/12
+MC0925-776,Halima Mrisho,76,Female,Cataracts,Pterygium,EXCISION - LE; SICS - RE,CF3M,6/60,CF3M,6/18,CF3M,6/36,CF3M,6/24
+MC0925-78,Mustafa Msangi,65,Male,None,Cataracts,EXCISION - LE,6/18,CF1M,6/18,6/60,6/18,6/24,6/18,6/18
+MC0925-785,Neema Peter,43,Female,Pterygium,None,EXCISION - RE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-795,Hassan Kayenje,65,Male,Pseudophakia,Cataracts,SICS - LE,6/24,HM,6/24,6/24,6/24,6/12,6/24,6/9
+MC0925-801,Matimbwa Shomari,53,Male,None,Cataracts,SICS - LE,6/9,CF3M,6/9,6/60,6/9,6/24,6/9,6/12
+MC0925-803,Christophila Aloyce,65,Female,Cataracts,Glaucoma; Pseudophakia,SICS - RE,CF1M,NPL,6/36,NPL,6/24,NPL,6/18,NPL
+MC0925-807,Khatib Rashid,61,Male,Pterygium,Pterygium,EXCISION - RE,6/12,6/12,6/12,6/12,6/12,6/12,6/6,6/12
+MC0925-810,Scola Aloyce,43,Female,Presbyopia; Pterygium,Presbyopia,EXCISION - RE,6/6,6/9,6/6,6/9,6/6,6/9,6/6,6/9
+MC0925-816,Veronica Chambila,83,Female,Cataracts,Glaucoma,SICS - RE,CFN,NPL,6/60,NPL,6/24,NPL,6/18,NPL
+MC0925-817,Restituta Mkama,60,Female,Cataracts,Corneal Scar,SICS - RE,CF4M,NPL,6/60,NPL,6/18,NPL,6/12,NPL
+MC0925-826,Mariana Hendry,66,Female,Pseudophakia,Cataracts,SICS - LE,6/24,CFN,6/24,6/60,6/24,6/24,6/24,6/12
+MC0925-848,Rehema Pius,44,Female,None,Conjmass,EXCISION - LE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-854,Elisur Ezekiel,18,Male,Conjmass,None,EXCISION - LE,6/6,6/6,6/6,6/6,6/6,6/6,6/6,6/6
+MC0925-866,Joseph Somba,77,Male,Cataracts,Pseudophakia,SICS - RE,CFN,6/60,CF5M,6/60,6/36,6/60,6/24,6/60
+MC0925-887,Elius John,40,Male,Macular Degeneration,Cataracts,SICS - LE,CF1M,HM,CF1M,6/60,CF1M,6/36,CF1M,6/24
+MC0925-888,Jacob Elia,45,Male,Cataracts,Cataracts,SICS - LE,6/60,CF4M,6/60,6/60,6/60,6/24,6/60,6/9
+MC0925-900,Mary Mgashwa,66,Female,Cataracts,Hyperopia; Immature Cataracts,SICS - RE,CF2M,6/18,6/60,6/18,6/36,6/18,6/24,6/18
+MC0925-908,Salum Mchonjo,52,Male,Cataracts,Cataracts,SICS - RE,CFN,CF1M,6/60,CF1M,6/24,CF1M,6/12,CF1M
+MC0925-915,Ishumaeli Mahimbo,81,Male,Immature Cataracts,Cataracts,SICS - LE,6/60,HM,6/60,6/60,6/36,6/12,6/36,6/9
+MC0925-925,Tausi Hussein,73,Female,Pseudophakia,Cataracts,SICS - LE,6/12,CFN,6/12,CF5M,6/12,6/60,6/12,6/60
+MC0925-943,Abdul Maftaha,72,Male,None,Cataracts,SICS - LE,6/12,CF2M,6/12,6/60,6/6,6/18,6/6,6/12
+MC0925-960,Paulo Yussuf,95,Male,Cataracts,Cataracts,SICS - LE,CF2M,PL,CF2M,6/60,CF2M,6/18,CF2M,6/9
+MC0925-974,Tadeo Joseph,73,Male,Immature Cataracts,Cataracts,SICS - LE,CF5M,HM,CF5M,CF5M,CF5M,6/60,CF5M,6/36
+MC0925-99,Abdallah Kibwana,60,Male,Cataracts,Corneal Scar,SICS - RE,CF3M,CF5M,6/36,CF5M,6/36,CF5M,6/18,CF5M
+MC0925-992,Mseleche Kaondo,41,Male,Pterygium,None,EXCISION - RE,6/24,6/24,6/24,6/24,6/18,6/24,6/12,6/24
+MC0925-993,Mwanaisha Shaban,65,Female,Cataracts,Cataracts,SICS - LE,HM,HM,HM,6/60,HM,6/36,HM,6/18
