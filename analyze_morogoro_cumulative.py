@@ -137,11 +137,11 @@ for row in data:
             if is_sics:
                 sics_patients.append(patient_info)
 
-# Count VA frequencies for ALL procedures (for general stats)
-preop_va_count = Counter([v['preop'] for v in va_data_all if v['preop']])
-day1_va_count = Counter([v['day1'] for v in va_data_all if v['day1']])
-week2_va_count = Counter([v['week2'] for v in va_data_all if v['week2']])
-month1_va_count = Counter([v['month1'] for v in va_data_all if v['month1']])
+# Count VA frequencies for SICS procedures only
+preop_va_count = Counter([v['preop'] for v in sics_va_data if v['preop']])
+day1_va_count = Counter([v['day1'] for v in sics_va_data if v['day1']])
+week2_va_count = Counter([v['week2'] for v in sics_va_data if v['week2']])
+month1_va_count = Counter([v['month1'] for v in sics_va_data if v['month1']])
 
 # Calculate WHO standard: % achieving 6/18 or better at each time point - SICS ONLY (Overall)
 preop_patients_with_va = [v for v in sics_va_data if v['preop']]
@@ -418,9 +418,11 @@ markdown += """
 
 ---
 
-## 2. Cumulative Visual Acuity Distribution
+## 2. SICS Visual Acuity Distribution
 
-### 2.1 VA Distribution Across All Time Points
+**Note:** This section focuses exclusively on **Small Incision Cataract Surgery (SICS) procedures** to provide a clear picture of cataract surgery outcomes across all three camps.
+
+### 2.1 VA Distribution Across All Time Points (SICS Only)
 
 | Visual Acuity | Pre-op | 1 Day Post-op | 2 Weeks Post-op | 1 Month Post-op | Change (Pre-op to 1 Month) |
 |---------------|--------|---------------|-----------------|------------------|----------------------------|
@@ -455,10 +457,10 @@ for va in all_va_values:
     
     markdown += f"| {va} | {preop_count} ({preop_pct:.2f}%) | {day1_count} ({day1_pct:.2f}%) | {week2_count} ({week2_pct:.2f}%) | {month1_count} ({month1_pct:.2f}%) | {change_str} |\n"
 
-markdown += f"\n**Total Patients with Pre-op VA: {total_preop}**\n"
-markdown += f"**Total Patients with 1 Day Post-op VA: {total_day1}**\n"
-markdown += f"**Total Patients with 2 Weeks Post-op VA: {total_week2}**\n"
-markdown += f"**Total Patients with 1 Month Post-op VA: {total_month1}**\n"
+markdown += f"\n**Total SICS Patients with Pre-op VA: {total_preop}**\n"
+markdown += f"**Total SICS Patients with 1 Day Post-op VA: {total_day1}**\n"
+markdown += f"**Total SICS Patients with 2 Weeks Post-op VA: {total_week2}**\n"
+markdown += f"**Total SICS Patients with 1 Month Post-op VA: {total_month1}**\n"
 
 # Calculate cumulative improvements
 cumulative_6_6_preop = preop_va_count.get('6/6', 0)
@@ -522,23 +524,32 @@ These ten patients represent the most remarkable transformations achieved throug
 
 ---
 
-## 4. Summary Statistics by Camp
+## 4. SICS Summary Statistics by Camp
 
-### 4.1 Procedures by Camp
+### 4.1 SICS Procedures by Camp
 
 """
-mkundi_pct = (camp_counts.get('Mkundi', 0)/procedure_count*100) if procedure_count > 0 else 0
-kilosa_pct = (camp_counts.get('Kilosa', 0)/procedure_count*100) if procedure_count > 0 else 0
-ifakara_pct = (camp_counts.get('Ifakara', 0)/procedure_count*100) if procedure_count > 0 else 0
+
+# Count SICS procedures by camp
+sics_camp_counts = Counter([p['camp'] for p in sics_patients])
+total_sics = sum(sics_camp_counts.values())
+
+mkundi_sics = sics_camp_counts.get('Mkundi', 0)
+kilosa_sics = sics_camp_counts.get('Kilosa', 0)
+ifakara_sics = sics_camp_counts.get('Ifakara', 0)
+
+mkundi_sics_pct = (mkundi_sics/total_sics*100) if total_sics > 0 else 0
+kilosa_sics_pct = (kilosa_sics/total_sics*100) if total_sics > 0 else 0
+ifakara_sics_pct = (ifakara_sics/total_sics*100) if total_sics > 0 else 0
 
 markdown += """
-| Camp | Number of Procedures | Percentage of Total |
-|------|---------------------|---------------------|
+| Camp | Number of SICS Procedures | Percentage of Total SICS |
+|------|---------------------------|--------------------------|
 """
-markdown += f"| Mkundi | {camp_counts.get('Mkundi', 0)} | {mkundi_pct:.2f}% |\n"
-markdown += f"| Kilosa | {camp_counts.get('Kilosa', 0)} | {kilosa_pct:.2f}% |\n"
-markdown += f"| Ifakara | {camp_counts.get('Ifakara', 0)} | {ifakara_pct:.2f}% |\n"
-markdown += f"| **Total** | **{procedure_count}** | **100.00%** |\n"
+markdown += f"| Mkundi | {mkundi_sics} | {mkundi_sics_pct:.2f}% |\n"
+markdown += f"| Kilosa | {kilosa_sics} | {kilosa_sics_pct:.2f}% |\n"
+markdown += f"| Ifakara | {ifakara_sics} | {ifakara_sics_pct:.2f}% |\n"
+markdown += f"| **Total** | **{total_sics}** | **100.00%** |\n"
 
 # Build conclusion section
 conclusion_status = 'remarkable' if pct_6_18_month1 >= 80 else 'significant'
@@ -551,31 +562,34 @@ markdown += f"""
 
 ## Conclusion
 
-The cumulative Morogoro Eye Camps conducted by The Mo Dewji Foundation achieved {conclusion_status} success in addressing the eye care needs across three communities in the Morogoro region. With **{procedure_count} total procedures** performed across Mkundi, Kilosa, and Ifakara, the camps made a substantial collective impact on preventing blindness and restoring vision.
+The cumulative Morogoro Eye Camps conducted by The Mo Dewji Foundation achieved {conclusion_status} success in addressing cataract-related blindness across three communities in the Morogoro region. With **{total_sics} SICS (Small Incision Cataract Surgery) procedures** performed across Mkundi, Kilosa, and Ifakara, the camps made a substantial collective impact on preventing blindness and restoring vision.
 
-**Key Achievements:**
-- Successfully treated the most common causes of vision loss, with cataract surgery (SICS) being the primary intervention across all camps
-- {achievement_status} the WHO standard of 80% of patients achieving 6/18 VA or better, with a cumulative result of **{pct_6_18_month1:.2f}%**
-- Achieved dramatic improvements in visual acuity, with many patients progressing from severe vision impairment to excellent functional vision
-- Demonstrated consistent quality of care across all three camp locations
-- Provided life-changing outcomes for patients, enabling them to regain independence and improve their quality of life
+**Key SICS Achievements:**
+- Successfully performed {total_sics} SICS procedures across all three camps, with consistent quality outcomes
+- {achievement_status} the WHO standard of 80% of SICS patients achieving 6/18 VA or better, with a cumulative result of **{pct_6_18_month1:.2f}%**
+- Achieved dramatic improvements in visual acuity, with many SICS patients progressing from severe vision impairment (PL, HM) to excellent functional vision (6/6)
+- Demonstrated consistent quality of SICS care across all three camp locations:
+  - Mkundi: {camp_stats['Mkundi']['month1']['pct']:.2f}% achieving 6/18 or better
+  - Kilosa: {camp_stats['Kilosa']['month1']['pct']:.2f}% achieving 6/18 or better
+  - Ifakara: {camp_stats['Ifakara']['month1']['pct']:.2f}% achieving 6/18 or better
+- Provided life-changing outcomes for SICS patients, enabling them to regain independence and improve their quality of life
 
 **Impact on Community:**
-The cumulative impact of these three eye camps extends beyond individual patients to their families and the broader Morogoro region. Restored vision enables patients to:
+The cumulative impact of these SICS procedures extends beyond individual patients to their families and the broader Morogoro region. Restored vision enables patients to:
 - Return to productive work and economic activities
 - Care for themselves and their families independently
 - Participate fully in community life and social activities
 - Reduce the burden on family caregivers
 
 **Recommendations:**
-Based on the cumulative data analysis:
-- Continue prioritizing cataract surgery (SICS), given its high prevalence and excellent outcomes
+Based on the cumulative SICS data analysis:
+- Continue prioritizing SICS, given its excellent outcomes and effectiveness in treating cataract-related blindness
 - {recommendation_status} the WHO standard of 80% achieving 6/18 VA or better through continued quality improvement
 - Ensure adequate follow-up care to monitor continued improvement in visual outcomes
 - Continue the successful model of conducting multiple camps across the region to maximize accessibility
-- Share best practices across camps to ensure consistent quality of care
+- Share best practices across camps to ensure consistent quality of SICS outcomes
 
-The success of these cumulative eye camps demonstrates the critical importance of accessible eye care services in underserved communities and the transformative power of surgical interventions in restoring vision and improving lives across the Morogoro region.
+The success of these cumulative SICS procedures demonstrates the critical importance of accessible cataract surgery services in underserved communities and the transformative power of SICS in restoring vision and improving lives across the Morogoro region.
 """
 
 # Write to file

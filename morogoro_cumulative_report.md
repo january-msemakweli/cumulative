@@ -112,43 +112,42 @@ The Ifakara camp demonstrated good performance in restoring functional vision to
 
 ---
 
-## 2. Cumulative Visual Acuity Distribution
+## 2. SICS Visual Acuity Distribution
 
-### 2.1 VA Distribution Across All Time Points
+**Note:** This section focuses exclusively on **Small Incision Cataract Surgery (SICS) procedures** to provide a clear picture of cataract surgery outcomes across all three camps.
+
+### 2.1 VA Distribution Across All Time Points (SICS Only)
 
 | Visual Acuity | Pre-op | 1 Day Post-op | 2 Weeks Post-op | 1 Month Post-op | Change (Pre-op to 1 Month) |
 |---------------|--------|---------------|-----------------|------------------|----------------------------|
-| 6/6 | 114 (9.86%) | 150 (12.99%) | 243 (21.39%) | 430 (38.36%) | +277.19% |
-| 6/9 | 99 (8.56%) | 143 (12.38%) | 157 (13.82%) | 330 (29.44%) | +233.33% |
-| 6/12 | 32 (2.77%) | 37 (3.20%) | 83 (7.31%) | 96 (8.56%) | +200.00% |
-| 6/18 | 34 (2.94%) | 54 (4.68%) | 51 (4.49%) | 76 (6.78%) | +123.53% |
-| 6/24 | 20 (1.73%) | 54 (4.68%) | 219 (19.28%) | 119 (10.62%) | +495.00% |
-| 6/36 | 29 (2.51%) | 132 (11.43%) | 270 (23.77%) | 34 (3.03%) | +17.24% |
-| 6/60 | 60 (5.19%) | 423 (36.62%) | 87 (7.66%) | 17 (1.52%) | -71.67% |
-| CF1M | 87 (7.53%) | 7 (0.61%) | 0 (0.00%) | 0 (0.00%) | -100% |
-| CF2M | 74 (6.40%) | 15 (1.30%) | 1 (0.09%) | 0 (0.00%) | -100% |
-| CF3M | 90 (7.79%) | 23 (1.99%) | 5 (0.44%) | 3 (0.27%) | -96.67% |
-| CF4M | 65 (5.62%) | 20 (1.73%) | 4 (0.35%) | 3 (0.27%) | -95.38% |
-| CF5M | 62 (5.36%) | 79 (6.84%) | 5 (0.44%) | 3 (0.27%) | -95.16% |
-| CFN | 102 (8.82%) | 6 (0.52%) | 1 (0.09%) | 2 (0.18%) | -98.04% |
-| HM | 219 (18.94%) | 6 (0.52%) | 3 (0.26%) | 4 (0.36%) | -98.17% |
-| PL | 61 (5.28%) | 2 (0.17%) | 1 (0.09%) | 0 (0.00%) | -100% |
-| NPL | 8 (0.69%) | 3 (0.26%) | 3 (0.26%) | 3 (0.27%) | -62.50% |
-| Q | 0 (0.00%) | 1 (0.09%) | 1 (0.09%) | 1 (0.09%) | +∞% |
-| 45817 | 0 (0.00%) | 0 (0.00%) | 1 (0.09%) | 0 (0.00%) | N/A |
-| 45816 | 0 (0.00%) | 0 (0.00%) | 1 (0.09%) | 0 (0.00%) | N/A |
+| 6/6 | 2 (0.25%) | 11 (1.35%) | 38 (4.74%) | 168 (21.27%) | +8300.00% |
+| 6/9 | 1 (0.12%) | 46 (5.64%) | 93 (11.60%) | 290 (36.71%) | +28900.00% |
+| 6/12 | 1 (0.12%) | 12 (1.47%) | 62 (7.73%) | 90 (11.39%) | +8900.00% |
+| 6/18 | 3 (0.37%) | 29 (3.56%) | 43 (5.36%) | 69 (8.73%) | +2200.00% |
+| 6/24 | 4 (0.49%) | 41 (5.03%) | 208 (25.94%) | 115 (14.56%) | +2775.00% |
+| 6/36 | 15 (1.84%) | 123 (15.09%) | 261 (32.54%) | 32 (4.05%) | +113.33% |
+| 6/60 | 40 (4.90%) | 402 (49.33%) | 79 (9.85%) | 11 (1.39%) | -72.50% |
+| CF1M | 83 (10.17%) | 6 (0.74%) | 0 (0.00%) | 0 (0.00%) | -100% |
+| CF2M | 73 (8.95%) | 15 (1.84%) | 1 (0.12%) | 0 (0.00%) | -100% |
+| CF3M | 90 (11.03%) | 22 (2.70%) | 5 (0.62%) | 3 (0.38%) | -96.67% |
+| CF4M | 62 (7.60%) | 18 (2.21%) | 3 (0.37%) | 3 (0.38%) | -95.16% |
+| CF5M | 61 (7.48%) | 77 (9.45%) | 4 (0.50%) | 3 (0.38%) | -95.08% |
+| CFN | 101 (12.38%) | 6 (0.74%) | 1 (0.12%) | 2 (0.25%) | -98.02% |
+| HM | 216 (26.47%) | 6 (0.74%) | 3 (0.37%) | 4 (0.51%) | -98.15% |
+| PL | 60 (7.35%) | 1 (0.12%) | 1 (0.12%) | 0 (0.00%) | -100% |
+| NPL | 4 (0.49%) | 0 (0.00%) | 0 (0.00%) | 0 (0.00%) | -100% |
 
-**Total Patients with Pre-op VA: 1156**
-**Total Patients with 1 Day Post-op VA: 1155**
-**Total Patients with 2 Weeks Post-op VA: 1136**
-**Total Patients with 1 Month Post-op VA: 1121**
+**Total SICS Patients with Pre-op VA: 816**
+**Total SICS Patients with 1 Day Post-op VA: 815**
+**Total SICS Patients with 2 Weeks Post-op VA: 802**
+**Total SICS Patients with 1 Month Post-op VA: 790**
 
 
 **Cumulative Outcome Highlights:**
 - **Dramatic improvements** were observed across all visual acuity levels, with significant reductions in patients with poor vision (HM, PL, NPL, CF categories) and substantial increases in patients achieving good vision (6/6, 6/9, 6/12, 6/18).
-- The percentage of patients achieving **6/6 vision (best possible)** increased from 114 (9.86%) pre-operatively to 430 (38.36%) at 1 month post-operatively - a **277.2% increase**, representing life-changing outcomes for these patients.
+- The percentage of patients achieving **6/6 vision (best possible)** increased from 2 (0.25%) pre-operatively to 168 (21.27%) at 1 month post-operatively - a **8300.0% increase**, representing life-changing outcomes for these patients.
 - Patients achieving **6/18 VA or better** (functional vision) increased from 7 (0.86%) pre-operatively to 617 (78.10%) at 1 month post-operatively.
-- The dramatic reduction in patients with **poor vision** (HM, PL, NPL, CF categories) from 768 (66.44%) to 18 (1.61%) demonstrates the camps' success in addressing severe vision impairment.
+- The dramatic reduction in patients with **poor vision** (HM, PL, NPL, CF categories) from 750 (91.91%) to 15 (1.90%) demonstrates the camps' success in addressing severe vision impairment.
 - These improvements translate directly to enhanced independence, ability to work, and overall quality of life for patients and their families across all three Morogoro camps.
 
 
@@ -183,45 +182,48 @@ These ten patients represent the most remarkable transformations achieved throug
 
 ---
 
-## 4. Summary Statistics by Camp
+## 4. SICS Summary Statistics by Camp
 
-### 4.1 Procedures by Camp
+### 4.1 SICS Procedures by Camp
 
 
-| Camp | Number of Procedures | Percentage of Total |
-|------|---------------------|---------------------|
-| Mkundi | 301 | 26.02% |
-| Kilosa | 480 | 41.49% |
-| Ifakara | 376 | 32.50% |
-| **Total** | **1157** | **100.00%** |
+| Camp | Number of SICS Procedures | Percentage of Total SICS |
+|------|---------------------------|--------------------------|
+| Mkundi | 207 | 25.52% |
+| Kilosa | 345 | 42.54% |
+| Ifakara | 259 | 31.94% |
+| **Total** | **811** | **100.00%** |
 
 
 ---
 
 ## Conclusion
 
-The cumulative Morogoro Eye Camps conducted by The Mo Dewji Foundation achieved significant success in addressing the eye care needs across three communities in the Morogoro region. With **1157 total procedures** performed across Mkundi, Kilosa, and Ifakara, the camps made a substantial collective impact on preventing blindness and restoring vision.
+The cumulative Morogoro Eye Camps conducted by The Mo Dewji Foundation achieved significant success in addressing cataract-related blindness across three communities in the Morogoro region. With **811 SICS (Small Incision Cataract Surgery) procedures** performed across Mkundi, Kilosa, and Ifakara, the camps made a substantial collective impact on preventing blindness and restoring vision.
 
-**Key Achievements:**
-- Successfully treated the most common causes of vision loss, with cataract surgery (SICS) being the primary intervention across all camps
-- Approached the WHO standard of 80% of patients achieving 6/18 VA or better, with a cumulative result of **78.10%**
-- Achieved dramatic improvements in visual acuity, with many patients progressing from severe vision impairment to excellent functional vision
-- Demonstrated consistent quality of care across all three camp locations
-- Provided life-changing outcomes for patients, enabling them to regain independence and improve their quality of life
+**Key SICS Achievements:**
+- Successfully performed 811 SICS procedures across all three camps, with consistent quality outcomes
+- Approached the WHO standard of 80% of SICS patients achieving 6/18 VA or better, with a cumulative result of **78.10%**
+- Achieved dramatic improvements in visual acuity, with many SICS patients progressing from severe vision impairment (PL, HM) to excellent functional vision (6/6)
+- Demonstrated consistent quality of SICS care across all three camp locations:
+  - Mkundi: 83.09% achieving 6/18 or better
+  - Kilosa: 78.11% achieving 6/18 or better
+  - Ifakara: 73.88% achieving 6/18 or better
+- Provided life-changing outcomes for SICS patients, enabling them to regain independence and improve their quality of life
 
 **Impact on Community:**
-The cumulative impact of these three eye camps extends beyond individual patients to their families and the broader Morogoro region. Restored vision enables patients to:
+The cumulative impact of these SICS procedures extends beyond individual patients to their families and the broader Morogoro region. Restored vision enables patients to:
 - Return to productive work and economic activities
 - Care for themselves and their families independently
 - Participate fully in community life and social activities
 - Reduce the burden on family caregivers
 
 **Recommendations:**
-Based on the cumulative data analysis:
-- Continue prioritizing cataract surgery (SICS), given its high prevalence and excellent outcomes
+Based on the cumulative SICS data analysis:
+- Continue prioritizing SICS, given its excellent outcomes and effectiveness in treating cataract-related blindness
 - Work toward achieving the WHO standard of 80% achieving 6/18 VA or better through continued quality improvement
 - Ensure adequate follow-up care to monitor continued improvement in visual outcomes
 - Continue the successful model of conducting multiple camps across the region to maximize accessibility
-- Share best practices across camps to ensure consistent quality of care
+- Share best practices across camps to ensure consistent quality of SICS outcomes
 
-The success of these cumulative eye camps demonstrates the critical importance of accessible eye care services in underserved communities and the transformative power of surgical interventions in restoring vision and improving lives across the Morogoro region.
+The success of these cumulative SICS procedures demonstrates the critical importance of accessible cataract surgery services in underserved communities and the transformative power of SICS in restoring vision and improving lives across the Morogoro region.
